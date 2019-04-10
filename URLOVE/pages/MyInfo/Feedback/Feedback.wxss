@@ -1,0 +1,65 @@
+page{
+	background: #F2F2F2;
+	width: 750rpx;
+}
+
+/*.btn{
+	width: 450rpx;
+	height: 83rpx;
+	font-size: 34rpx;
+	background-color: #FFB064;
+	line-height: 83rpx;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 270rpx;
+}
+
+.title{
+	background: white;
+	width: 100%;
+	height: 60rpx;
+	margin-bottom: 20rpx;
+	margin-top: 20rpx;
+	font-size: 34rpx;
+	padding-top: 19rpx;
+	padding-right: 40rpx;
+	padding-left: 40rpx;
+	padding-bottom: 19rpx;
+}
+
+.advice{
+	background: white;
+	width: 100%;
+	height: 423rpx;
+	font-size: 34rpx;
+	padding-top: 24rpx;
+	padding-right: 40rpx;
+	padding-left: 40rpx;
+}*/
+
+.myView {
+  font-size: 35rpx;
+  margin: 20rpx;
+}
+
+.cBtn {
+  height: 100rpx;
+  margin-left: 300rpx;
+}
+
+.cs_button {
+  background-color: #fff;
+  border: 0px;
+  height: 100rpx;
+  position: fixed;
+  margin-left: 240rpx;
+}
+
+.cs_button:after {
+  border: 0px;
+}
+
+.cs_image {
+  width: 100rpx;
+  height: 100rpx;
+}

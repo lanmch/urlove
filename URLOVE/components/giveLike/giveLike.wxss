@@ -1,0 +1,16 @@
+
+.likeLogo{
+	width:60rpx;
+	height:60rpx;
+  /* padding-right: 20rpx; */
+  position: relative;
+}
+label{
+    color:#B4B3B3;
+    font-size: 24rpx;
+
+}
+.givelike{
+	display: flex;
+	flex-direction: row;
+}

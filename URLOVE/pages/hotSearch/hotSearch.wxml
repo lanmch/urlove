@@ -1,0 +1,38 @@
+<Page touchmove="false">
+  <header></header>
+  <swiper indicator-dots="true"
+  autoplay="true" class="scroll">
+    <!-- <block wx:for="{{imgUrls}}"> -->
+      <swiper-item>
+        <image src="/images/HotSearch/pic.jpg"  />
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/HotSearch/pic.jpg"  />
+      </swiper-item>
+    <!-- </block> -->
+  </swiper>
+  <view class="search">
+    <view class="searchNav">
+      <view bindtap='showSearch' class="{{searchChosed}}">最热搜</view>
+      <view bindtap='showNews' class="{{newsChosed}}">新时事</view>
+    </view>
+    <view class="line">
+      <view class="line_l" id="{{linelchosed}}"></view>
+      <view class="line_r" id="{{linerchosed}}"></view>
+    </view>
+    <view class="searchContent" wx:if="{{!navBarShow}}">
+      <view wx:for="{{hotSearchData}}">
+      
+       <hotSearchBar index="{{index+1}}" title="{{item.title}}"  url="{{item.urlurl}}" wx:key="{{index}}" image="{{item.iconsrc}}">
+         
+        </hotSearchBar>
+      </view>
+    </view>
+    <view class="newsContent" wx:if="{{navBarShow}}">
+        <hotSearchBar index="{{index+1}}" title="{{item.title}}" url="{{item.urlurl}}" searchItem="{{item}}" wx:for="{{newsData}}" image="{{item.iconsrc}}" wx:key="{{index}}" >
+        </hotSearchBar>
+    </view>
+  </view>
+<!--   <bottom choseId="1"></bottom>  -->
+</Page>
+

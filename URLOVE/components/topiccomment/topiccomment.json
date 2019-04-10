@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+  	"otherscomment":"/components/topiccomment2/topiccomment2"
+  }
+}

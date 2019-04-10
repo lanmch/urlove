@@ -1,0 +1,11 @@
+.otherscomment{
+	width: 500rpx;
+	margin-left: 121rpx;
+	border: 1px solid #827E7E;
+	height: auto;
+	padding: 3rpx 10rpx 3rpx 10rpx;
+}
+.otherscomment view{
+	font-size: 26rpx;
+	overflow-wrap: break-word;
+}

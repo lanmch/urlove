@@ -1,0 +1,2 @@
+  <myChatBar wx:if="{{judge}}" image="{{headerImg[0]}}" word="{{chatWords}}" />
+  <othersChatBar wx:else image="{{headerImg[1]}}" word="{{chatWords}}" />

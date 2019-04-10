@@ -1,0 +1,11 @@
+<view class="page" touchmove="false">
+	<headerReturn></headerReturn>
+	<!-- <input placeholder="请输入标题" class="title"/>
+	<textarea  placeholder="请输入反馈意见" class="advice"/>
+	<button class="btn">提交反馈</button> -->
+	<view class='myView'>联系客服：</view>
+	<button class="cs_button" open-type="contact" session-from="weapp">
+	  	<image class="cs_image" src="/images/MyInfo/kf.png"></image>
+	</button> 
+
+</view>

@@ -1,0 +1,9 @@
+<!--pages/focus/focus.wxml-->
+<view id='focuswrap' touchmove="false">
+  <headerReturn class="headTop"></headerReturn>  
+  <scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px" bindscrolltolower="lower">
+  <view wx:for="{{focusLists}}" class='focusLists'>
+    <focusItem userLogo='{{item.avatarUrl}}' userName='{{item.nickName}}' focusTime="{{item.followDate}}" signature="{{item.signature}}" userId="{{item.userId}}"></focusItem> 
+  </view>
+  </scroll-view>
+</view>

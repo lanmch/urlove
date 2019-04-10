@@ -1,0 +1,6 @@
+
+<view class='givelike'>
+
+    <image class='likeLogo' src='{{zanlogo}}' catchtap='giveLike'></image>
+    <label>{{isLikeNum}}</label>
+</view>

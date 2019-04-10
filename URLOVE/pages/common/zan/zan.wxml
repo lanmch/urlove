@@ -1,0 +1,10 @@
+
+<view class="page" touchmove="false">
+	<header></header>
+
+	<zanlist></zanlist>
+	<zanlist></zanlist>
+	<zanlist></zanlist>
+	<zanlist></zanlist>
+	<zanlist></zanlist>
+</view>
